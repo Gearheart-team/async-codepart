@@ -1,7 +1,8 @@
 This is service for async communication between angular2 and django-channels in wamp-like-protocol.
 We can subscribe and publish to async endpoints and call RPC endpionts.
 
-###How to use
+### How to use
+
 
 Python publish:
 
@@ -48,4 +49,4 @@ export class SomeComponent {
     this.wamp.publish('com.example.foo', 'Foo message')
   }
 
-}```
+}
